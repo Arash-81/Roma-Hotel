@@ -134,11 +134,21 @@ button{
   display: block;
   margin: 20px;
   padding: 10px;
-  background-color: #ff5076;
+  background-color: #f3869d;
+}
+button:hover{
+  cursor: pointer;
+  background-color: #db7676;
 }
 .form-group #input-message{
   border: 2px #f37070 solid;
   border-radius: 4px;
   margin: 15px;
   width: 80%;
+}
+.contact-box{
+  width: 32.8%;
+  display: inline-block;
+  text-align: center;
+  line-height: 20px;
 }
