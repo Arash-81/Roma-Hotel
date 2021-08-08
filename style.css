@@ -66,3 +66,21 @@ section #centerText{
   border-radius: 5px;
   cursor: pointer;
 }
+#photo2{
+  display: block;
+  float: left;
+  width: 50%;
+}
+#secondSection{
+  display: inline-block;
+  text-align: center;
+  background-color: #292727;
+  color: #fff;
+}
+#secondSection h3{
+  padding: 10px;
+  font-size: 20px;
+}
+#secondSection p{
+  font-size: 16px;
+}
