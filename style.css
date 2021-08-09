@@ -146,9 +146,22 @@ button:hover{
   margin: 15px;
   width: 80%;
 }
-.contact-box{
-  width: 32.8%;
+.about{
   display: inline-block;
   text-align: center;
-  line-height: 20px;
+  background-color: #292727;
+  color: #fff;
+}
+#hotelpicture{
+  display: inline-block;
+  width: 50%;
+  border-radius: 50%;
+}
+#guests{
+  background-image: url(./img/test-bg.jpg);
+  background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+  text-align: center;
 }
