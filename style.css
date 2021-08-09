@@ -159,12 +159,14 @@ button:hover{
   padding: 20px;
 }
 #guests{
+  height: 500px;
   background-image: url('./img/test-bg.jpg');
   background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
 	background-attachment: fixed;
   text-align: center;
+  padding-top: 50px;
 }
 #guests h3{
   padding: 15px;
@@ -174,15 +176,16 @@ button:hover{
 #guests #person{
   background-color: #ff9999;
   padding: 15px;
-  margin: 20px;
+  margin: 30px;
   min-height: 100px;
   opacity: 80%;
+  border-radius: 4px;
 }
 #guests #person img{
   display: block;
   float: left;
   width: 80px;
-  bottom: 10px;
+  bottom: 15px;
   top: 10px;
   border-radius: 60%;
 }
