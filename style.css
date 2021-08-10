@@ -18,7 +18,7 @@
     color: #ff5076;
     border-radius: 5px;
 }
-.navbar a:hover{
+.navbar a:hover, .navbar .current{
   background-color: #fabb68;
 }
 .navbar #icon{
@@ -37,6 +37,7 @@ section{
 }
 section  #welcoming{
   display: block;
+  height: 610px;
   width: 100%;
 }
 section #centerHeading{
@@ -108,7 +109,7 @@ i{
   background-color: bisque;
 }
 footer{
-  background-color: gray;
+  background-color: #d1cccc;
   text-align: center;
   padding: 10px;
   height: 50px;
@@ -162,6 +163,9 @@ button:hover{
   background-color: #292727;
   color: #fff;
   font-family: cursive;
+}
+.about span{
+  color: #db7676;
 }
 #hotelpicture{
   display: inline-block;
