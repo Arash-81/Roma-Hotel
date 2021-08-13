@@ -37,7 +37,7 @@ section{
 }
 section  #welcoming{
   display: block;
-  height: 610px;
+  height: 95vh;
   width: 100%;
 }
 section #centerHeading{
@@ -70,16 +70,17 @@ section #centerText{
   font-family: cursive;
   cursor: pointer;
 }
-#photo2{
-  display: block;
-  float: left;
-  width: 50%;
-}
 #secondSection{
-  display: inline-block;
+  height: 260px;
   text-align: center;
   background-color: #292727;
   color: #fff;
+  overflow: hidden;
+}
+#photo2{
+  float: left;
+  width: 50%;
+  min-height: 100%;
 }
 #secondSection h3{
   font-family: 'Courgette', cursive;
@@ -163,15 +164,16 @@ button:hover{
   background-color: #292727;
   color: #fff;
   font-family: cursive;
+  height: 94vh;
 }
 .about span{
   color: #db7676;
 }
 #hotelpicture{
   display: inline-block;
-  width: 48%;
+  width: 42%;
   border-radius: 50%;
-  padding: 20px;
+  margin: 20px;
 }
 #guests{
   height: 600px;
