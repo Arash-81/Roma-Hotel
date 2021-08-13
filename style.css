@@ -35,7 +35,7 @@ section{
   text-align: center;
   color: #fff;
 }
-section  #welcoming{
+section #welcoming{
   display: block;
   height: 95vh;
   width: 100%;
@@ -71,7 +71,9 @@ section #centerText{
   cursor: pointer;
 }
 #secondSection{
-  height: 260px;
+  float: right;
+  width: 50%;
+  height: 64vh;
   text-align: center;
   background-color: #292727;
   color: #fff;
@@ -80,6 +82,7 @@ section #centerText{
 #photo2{
   float: left;
   width: 50%;
+  height: 64vh;
   min-height: 100%;
 }
 #secondSection h3{
@@ -110,7 +113,7 @@ i{
   background-color: bisque;
 }
 footer{
-  background-color: #d1cccc;
+  background-color: #b1a8a8;
   text-align: center;
   padding: 10px;
   height: 50px;
@@ -136,10 +139,13 @@ h2{
   padding: 10px;
   margin: 15px;
   border: 2px #f37070 solid;
+  
   border-radius: 4px;
 }
-.form-group input:focus {
-  border: 2px solid #d88989;
+.form-group input:focus,
+.form-group #input-message:focus {
+  outline: none;
+  border: 2px solid #a85656;
 }
 button{
   font-family: cursive;
@@ -156,6 +162,7 @@ button:hover{
   border: 2px #f37070 solid;
   border-radius: 4px;
   margin: 15px;
+  padding: 10px;
   width: 80%;
 }
 .about{
@@ -208,4 +215,39 @@ button:hover{
   top: 10px;
   border-radius: 60%;
 }
+/* Smaller Devices */
+@media only screen and (max-width: 690px) {
+  section #centerHeading{
+    top: 30%;
+    width: 400px;
+  }
+  #secondSection{
+    padding: 20px;
+    display: inline;
+    height: 400px;
+    width: 100%;
+  }
+  #secondSection .info{
+    padding: 20px;
+    width: 100%;
+    display: block;
+  }
 
+  #photo2{
+    display: block;
+    width: 100%;
+  }
+
+  .box{
+    width: 100%;
+    display: block;
+    text-align: center;
+    font-family: 'Courgette', cursive;
+    line-height: 20px;
+  }
+
+  .about{
+    padding: 20px;
+    height: 450px;
+  }
+}
